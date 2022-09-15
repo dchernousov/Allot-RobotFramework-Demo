@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl'?>
+<!--
+  ~ Copyright (c) 2022. Dzmitry Charnavusau. All rights reserved.
+  -->
+
 <employees>
     <employee id="be129">
         <firstname>Dzmitry</firstname>

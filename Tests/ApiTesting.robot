@@ -59,29 +59,15 @@ Get data from JSON file
 
 Parse data from XML
     ${xml_obj}=     parse xml    Resources/TestData/employees.xml
-
-    # Validations
-    # Val1 - Check the single element value
-    # Approach 1
     ${emp_firstname}=     get element text    ${xml_obj}    .//employee[1]/firstname
     should be equal    ${emp_firstname}     Dzmitry
-
-    # Approach 2
     ${emp_firstname}=     get element    ${xml_obj}    .//employee[1]/firstname
     should be equal    ${emp_firstname.text}     Dzmitry
-
-    # Approach 3
     element text should be    ${xml_obj}    Dzmitry    .//employee[1]/firstname
-
-    # Val2 - Check number of elements
     ${emp_count}=   get element count    ${xml_obj}     .//employee
     should be equal as integers    ${emp_count}     4
-
-    # Val3 - Check attribute presence
     element attribute should be    ${xml_obj}   id  be129   .//employee[1]
     element attribute should be    ${xml_obj}   id  be132   .//employee[4]
-
-    # Val4 - Check values of child elements
     ${child_elements}=   get child elements    ${xml_obj}    .//employee[1]
     should not be empty    ${child_elements}
 
