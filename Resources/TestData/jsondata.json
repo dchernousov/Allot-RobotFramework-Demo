@@ -1,0 +1,20 @@
+{
+    "firstName": "Dzmitry",
+    "lastName": "Charnavusau",
+    "age": 40,
+    "address": {
+        "streetAddress": "Gintovta street",
+        "city": "Minsk",
+        "postalCode": "220137"
+    },
+    "phoneNumbers": [
+        {
+            "type": "Android 11",
+            "number": "8-025-706-97-82"
+        },
+        {
+            "type": "Home",
+            "number": "none"
+        }
+    ]
+}
