@@ -21,11 +21,12 @@ Allot Technical assessment
 
 Please use the latest versions for a compliance code execution.
 
-*See examples:
+# Install the latest version
 
-# Install the latest version (does not upgrade)
+It does not upgrade (see tutorials below)
 
-pip install robotframework
+Please see the following example:
+`pip install robotframework`
 
 # How to Run Robot Tests
 
@@ -36,15 +37,18 @@ Run `robot -d Results Tests` to execute all Tests.
 
 Go to `Results` folder to get the HTML Reports.
 
-Run robot --help and rebot --help for more information about the command line usage. For a complete reference manual see
+Run `robot --help and rebot --help` for more information about the command line usage.
+For a complete reference manual see
 Robot Framework User Guide.
 
-Please see used materials:
-https://github.com/robotframework/robotframework
-https://github.com/fkromer/awesome-robotframework
-https://github.com/adrianyorke/robotframework-cookbook
-https://github.com/robotframework/HowToWriteGoodTestCases
+# Please see used materials:
 
-And? of cource:
-https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#getting-started
-http://robotframework.org/robotframework/#user-guide
+- https://github.com/robotframework/robotframework
+- https://github.com/fkromer/awesome-robotframework
+- https://github.com/adrianyorke/robotframework-cookbook
+- https://github.com/robotframework/HowToWriteGoodTestCases
+
+And (of course):
+
+- https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#getting-started
+- http://robotframework.org/robotframework/#user-guide
