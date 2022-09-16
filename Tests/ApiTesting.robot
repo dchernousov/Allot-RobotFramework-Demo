@@ -58,7 +58,7 @@ Get data from JSON file
     should be equal    ${mobileNo_value[0]}    8-025-706-97-82
 
 Parse data from XML
-    ${xml_obj}=     parse xml    Resources/TestData/employees.xml
+    ${xml_obj}=     parse xml    Resources/TestData/XMLdata.xml
     ${emp_firstname}=     get element text    ${xml_obj}    .//employee[1]/firstname
     should be equal    ${emp_firstname}     Dzmitry
     ${emp_firstname}=     get element    ${xml_obj}    .//employee[1]/firstname

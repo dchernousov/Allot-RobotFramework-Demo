@@ -1,0 +1,11 @@
+1663318039144	geckodriver	INFO	Listening on 127.0.0.1:50218
+1663318041163	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50219" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Dzmitry\\AppData\\Local\\Temp\\rust_mozprofile27XhUl"
+1663318041363	Marionette	INFO	Marionette enabled
+1663318041365	Marionette	INFO	Listening on port 50228
+WebDriver BiDi listening on ws://localhost:50219
+Read port: 50228
+1663318041542	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Dzmitry\\AppData\\Local\\Temp\\rust_mozprofile27XhUl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50219/devtools/browser/4237c727-396a-4739-9aa3-a1c53ce0de49
+JavaScript error: https://cdn.userway.org/widgetapp/2022-09-15/widget_app_base_1663255681889.js, line 2: TypeError: Be.services is undefined
+1663318045813	Marionette	INFO	Stopped listening on port 50228
