@@ -20,13 +20,10 @@ Allot Technical assessment
    package installer for Python.
 
 Please use the latest versions for a compliance code execution.
-
-# Install the latest version
-
-It does not upgrade (see tutorials below)
-
-Please see the following example:
+Just install the latest version
+See the following example:
 `pip install robotframework`
+Be aware that it does not upgrade (see tutorials below)
 
 # How to Run Robot Tests
 
